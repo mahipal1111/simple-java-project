@@ -55,12 +55,12 @@
          
          <distributionManagement>
 	<repository>
-		<id>deployement</id> <!-- this ID should match with server id which we configure in settings.xml file. -->
+		<id>deployment</id> <!-- this ID should match with server id which we configure in settings.xml file. -->
 		<name>yoyo</name>
 		<url>http://3.236.237.196:8081/nexus/content/repositories/yoyo/</url>
 	</repository>
 	<snapshotRepository>
-		<id>deployement</id>
+		<id>deployment</id>
 		<name>yoyo</name>
 		<url>http://3.236.237.196:8081/nexus/content/repositories/snapshots/</url>
 	</snapshotRepository>
