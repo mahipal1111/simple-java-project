@@ -63,6 +63,7 @@
 		<id>yoyo</id>
 		<name>yoyo</name>
 		<url>http://3.236.237.196:8081/nexus/content/repositories/snapshots/</url>
+		
 	</snapshotRepository>
 </distributionManagement>
 </project>
