@@ -52,4 +52,17 @@
             </plugin>
         </plugins>
     </build>
+         
+         <distributionManagement>
+	<repository>
+		<id>admin</id> <!-- this ID should match with server id which we configure in settings.xml file. -->
+		<name>yoyo</name>
+		<url>http://3.236.237.196:8081/nexus/content/repositories/yoyo/</url>
+	</repository>
+	<snapshotRepository>
+		<id>admin</id>
+		<name>yoyo</name>
+		<url>http://3.236.237.196:8081/nexus/content/repositories/snapshots/</url>
+	</snapshotRepository>
+#</distributionManagement>
 </project>
